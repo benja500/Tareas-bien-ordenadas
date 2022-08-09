@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    margin-left: 15%;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+.big{
+    font-size: 40px;
+}
+button{
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 110px;
+}
+.contenedor{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+.profile{
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 850px;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 76%, rgba(23,162,184,1) 76%);
+    border: 2px grey solid;
+}
+.education{
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 850px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 76%, rgba(51,51,51,1) 76%);
+    border: 2px grey solid;
+}
+.reqest{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 76%, rgba(51,51,51,1) 76%);
+    width: 400px;
+    border: 2px grey solid;
+}
+.connections{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 480px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 85%, rgba(51,51,51,1) 85%);
+    width: 400px;
+    border: 2px grey solid;
+}
+#profilep{
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 190px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.name{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#city{
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.flex img{
+    height: 25px;
+}
+.profile p{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#engine{
+    height: 30px;
+}
+.eduname{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.econ{
+    color: black;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.circle{
+    margin: 20px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background-color: grey;
+}
+#white2{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.connect{
+    margin-top: 20px;
+}
+.circle h1{
+    margin-left: 12px;
+}
+#whito{
+    color: white;
+}
+#todd{
+    border-radius: 100%;;
+    border: black 2px solid;
+    background-color: black;
+    height: 60px;
+
+}
+.person{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.person h2{
+    margin-left: 20px;
+}
+ul.checkmark li {
+    font-size: 16px;
+    margin-bottom: 1em;
+    list-style-type: none;
+    padding: 0.25em 0 0 2.5em;
+    position: relative;
+    align-items: center;
+
+}
+ul.checkmark li:before {
+    align-items: center;
+    content: " ";
+    display: block;
+    border: solid 0.8em grey;
+    border-radius: 0.8em;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0.5em;
+    top: 40%;
+    margin-top: -0.5em;
+}
+ul.checkmark li:after {
+    align-items: center;
+    content: " ";
+    display: block;
+    width: 0.3em;
+    height: 0.6em;
+    border: solid #fff;
+    border-width: 0 0.2em 0.2em 0;
+    position: absolute;
+    left: 1em;
+    top: 40%;
+    margin-top: -0.2em;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.flexa{
+    display: flex;
+    align-items: center;
+}
+#connecctions{
+    margin: 30px;
+    margin-left: 30px;
+
+}
+.eduname2{
+    background-color: gray;
+    border-radius: 60%;
+    margin: 30px;
+}

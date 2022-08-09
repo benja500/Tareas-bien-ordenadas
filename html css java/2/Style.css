@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    width: 30%;
+    background-color: blueviolet;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}

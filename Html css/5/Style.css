@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+h1{
+
+    font-size: 50px;
+    text-align: center;
+
+}
+div{
+    padding: 10px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+img{
+    height:120px ;
+    padding: 10px;
+    margin-right:40px ;
+    
+}
+#uno{
+    background-color: red;
+}
+#dos{
+    background-color: purple;
+}
+#tres{
+    background-color: grey;
+}

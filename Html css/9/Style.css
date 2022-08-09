@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+margin: 200px;
+height: 400px;
+background: linear-gradient(0deg, rgba(255,255,255,1) 69%, rgba(23,162,184,1) 69%);
+
+border: grey 5px solid;
+
+}
+#uno{
+    height: 125px;
+    background-color: aqua;
+}
+#profile-pic{
+    margin-top: 75px;
+    margin-left: 50px;
+    height: 100px;
+}
+#marquer{
+    margin-left: 50px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#name{
+    margin-left: 50px;
+    font-size: 50px;
+}
+#place{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+h2{
+    margin-left: 50px;
+}
+p{
+    margin-bottom: 10px;
+}
+header{
+    background-color: black;
+    height: 110px;
+}

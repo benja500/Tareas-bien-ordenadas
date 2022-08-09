@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        header
+    </header>
+    <main>
+        <div class="left-content">
+            this is the left content
+        </div>
+        <div class="right-content">
+            <section class="connections-request-container">
+                <h2 class="connections-heading">
+                    <span class="connection-count">2</span> 
+                    Connection Request
+                </h2>
+                <ul class="connections-list">
+                    <li class="connection" id="connectionOne">
+                        <img src="/icons 2/user-circle.png" alt="user profile placeholder">
+                        <p>Todd E</p>
+                        <button onclick="acceptConnection('Todd E')" class="accept-connection">
+                            <img src="/icons 2/accept-circle.png" alt="accept">
+                        </button>
+                        <button onclick="denyConnection('Todd E', 'connectionOne')" class="deny-connection">
+                            <img src="/icons 2/close-circle.png" alt="deny">
+                        </button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <h2 class="connections-heading">
+            <span class="connection-count">2</span> 
+            Connection Request
+        </h2>
+    </main>
+
+    <script>
+        function acceptConnection(name){
+            alert(`You have accepted ${name}`)
+        }
+
+        function denyConnection(name, id){
+            // var connection = document.getElementById(id)
+            var connection = document.querySelector(`#${id}`)
+            // console.log(document.querySelector('.connections-heading'))
+            // console.log(document.querySelectorAll('.connections-heading'))
+            connection.remove()
+            alert(`You have denied ${name}`)
+        }
+    </script>
+</body>
+</html>
